@@ -1,0 +1,233 @@
+.logo{
+	width: 40%;
+	height: 40%;
+}
+ .carousel-item{
+	width: 100%;
+	height: 100%;
+}
+
+
+.navbar {
+
+	color: rgb(8, 8, 8);
+	/* position: fixed; */
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: transparent; 
+	transition: background-color 0.3s ease;
+	padding: 1rem; /* Adjust padding as needed */
+	z-index: 1000;
+
+  }
+  
+  .navbar.scrolled {
+	background-color: rgb(59, 58, 58);
+	color: rgb(255, 255, 255); /* Adjust text color for black background */
+  }
+
+.card{
+	max-width: 400px
+}
+.myForm{
+	margin: auto;
+    width: 400px;
+    border: solid 2px;
+}
+
+.btn{
+    background-color: #000000;
+}
+.carousel{
+	
+	text-align :"['center','center','center','center']";
+	/*data-paddingtop :"[0,0,0,0]";
+	data-paddingright :"[0,0,0,0]";
+	data-paddingbottom :"[0,0,0,0]";
+	data-paddingleft : "[0,0,0,0]"; */
+	z-index: 5; 
+	min-width: 100%; 
+	max-width: 100%; 
+	white-space: normal; 
+	font-size: 21px;
+	line-height: 25px; 
+	font-weight: 400; 
+	color: rgb(255, 255, 255); 
+	letter-spacing: 0px; 
+	font-family:Marcellus;
+	text-transform: uppercase; 
+	visibility: inherit; 
+	transition: none 0s ease 0s; 
+	text-align: center; 
+	border-width: 0px; 
+	/* margin: 0px; 
+	padding: 0px;  */
+	/* min-height: 0px; 
+	max-height: none;  */
+	opacity: 1; 
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+	transform-origin: 50% 50% 0px;
+}
+
+.carousel-caption{
+
+	text-align: center;
+	padding-top: 50%;
+	padding-bottom: 300px;
+	font: size 50px;
+}
+
+.button{
+	background-color: transparent;
+	color: white;
+	border: solid white;
+}
+
+.column{
+	width: 700px;
+	height: 500px;
+	padding-top: 50px;
+
+}
+
+.images{
+	width: 50px;
+	height: 50px;
+}
+.heading{
+	padding-top: 20px;
+	text-align: center;
+	font-family: "BlinkMacSystemFont";
+	text-transform: uppercase;
+}
+.p{
+	padding-top: 80px;
+	text-align: justify;
+}
+.row_image{
+	padding-top: 80px;
+}
+
+.image2{
+	padding-top: 80px;
+}
+.para{
+	padding-top: 80px;
+	text-align: justify;
+	font-size:xx-large;
+}
+.image{
+	padding-top: 20px;
+	width: 350px;
+	height: 400px;
+}
+
+.image:hover{
+	transform: scale(1.1);
+}
+
+.services{
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: medium;
+	text-align: center;
+
+}
+.serve{
+	padding-top: 50px;
+}
+
+.client{
+	padding-top: 50px;
+	text-align: center;
+}
+.footer{
+	padding-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: grey;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white;
+}
+.footer-content{
+	padding-top: 30px;
+	color: white;
+}
+.icons{
+	width: 40px;
+	height: 40px;
+}
+
+.dropdown-menu
+{
+	color: black;
+	background-color: #000000;
+}
+
+.search-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .search-title {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .love-text {
+	font-weight: bold;
+	font-style: italic;
+  }
+  
+  .search-tabs {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+  }
+  
+  .search-tabs span {
+	margin: 0 10px;
+	cursor: pointer;
+	color: #333;
+  }
+  
+  .search-tabs .active-tab {
+	border-bottom: 2px solid red;
+  }
+  
+  .search-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .location,
+  .property-type,
+  .budget {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	padding: 5px 10px;
+  }
+  
+  .location-icon {
+	margin-right: 5px;
+  }
+  
+  .search-bar input {
+	border: none;
+	outline: none;
+  }
+  
+  .search-button {
+	background-color: red;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+  }
+  
